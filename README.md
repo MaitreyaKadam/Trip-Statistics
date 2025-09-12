@@ -8,7 +8,7 @@
 
 
 
-##### This project processes trip data using Hadoop Streaming to compute per-taxi statistics and sorted output.
+#### This project processes trip data using Hadoop Streaming to compute per-taxi statistics and sorted output.
 
 
 
@@ -16,11 +16,11 @@
 
 ## 🔧 Technologies Used
 
-##### \- Python
+#### \- Python
 
-##### \- Hadoop Streaming
+#### \- Hadoop Streaming
 
-##### \- Bash scripting
+#### \- Bash scripting
 
 
 
@@ -30,11 +30,11 @@
 
 ## 📊 Results
 
-##### \- Aggregated total trips, max/min fare, and average fare per taxi
+#### \- Aggregated total trips, max/min fare, and average fare per taxi
 
-##### \- Sorted output by trip count or fare efficiency
+#### \- Sorted output by trip count or fare efficiency
 
-##### \- Handles malformed input and scales to large datasets
+#### \- Handles malformed input and scales to large datasets
 
 ## 
 
