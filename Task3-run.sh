@@ -1,5 +1,5 @@
 #!/bin/bash
-##This bash script is written by Maitreya Milind Kadam(s4087536) and Dhruvi Trivedi(s4146514) for A1(Task1): Big Data processing.
+##This bash script is written by Maitreya Milind Kadam.
 hadoop fs -rm -f -r /input  
 hadoop fs -rm -f -f /output
 hadoop fs -mkdir /Input

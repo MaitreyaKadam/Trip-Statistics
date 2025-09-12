@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-##This code is written by Maitreya Milind Kadam(s4087536) and Dhruvi Trivedi(s4146514) for A1(Task3): Big Data processing.
+##This code is written by Maitreya Milind Kadam
 import sys
 for each_line in sys.stdin: #reads each line from the job 2
     each_line=each_line.strip() #removes excess spaces from the line
