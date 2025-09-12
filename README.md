@@ -8,7 +8,7 @@
 
 
 
-#### This project processes trip data using Hadoop Streaming to compute per-taxi statistics and sorted output.
+##### This project processes trip data using Hadoop Streaming to compute per-taxi statistics and sorted output.
 
 
 
