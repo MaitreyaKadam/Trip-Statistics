@@ -4,11 +4,24 @@
 
 
 
-# 🚀 Project Overview
+## This project processes trip data using Hadoop Streaming to compute per-taxi statistics and sorted output. It demonstrates how Hadoop Streaming can be used to process big data stored in HDFS
 
 
 
-## This project processes trip data using Hadoop Streaming to compute per-taxi statistics and sorted output.
+
+
+
+
+
+
+# Project Overview
+
+
+
+## The goal of this was to analyze Trips and Taxis data using python scripts, automate the tasks by executable bash scripts and answer the questions related to a business problem
+
+* ## What are the maximum, minimum, and average fares per taxi type?
+* ## Which are the most active taxis based on trip count?
 
 
 
@@ -36,7 +49,9 @@
 
 ## \- Sorted output by trip count or fare efficiency
 
-## \- Handles malformed input and scales to large datasets
+
+
+
 
 
 

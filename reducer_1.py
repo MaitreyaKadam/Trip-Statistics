@@ -18,7 +18,8 @@ for each_line in sys.stdin:
     f_t_stats[p_key][1]=max(f_t_stats[p_key][1],max_f) #updates the maximum fare after comparing it with the previous maximum fare
     f_t_stats[p_key][2]=min(f_t_stats[p_key][2],min_f) #updates the minimum fare after comparing it with the previous minimum fare
     f_t_stats[p_key][3]+=t_fare  #calculates the total fare
+print('Taxi ID\t\tTrip Type\tNumber of Trips\t\tMaximum Fare\tMinimum Fare\tAverage Fare')
 for (t_id,t_type), (n_trips,max_f,min_f,t_fare) in f_t_stats.items():
     avg_fare=t_fare/n_trips #calculates the average fare.
-    print(f"{t_id}\t{t_type}\t{n_trips}\t{max_f:.2f}\t{min_f:.2f}\t{avg_fare:.2f}")
+    print(f"{t_id}\t\t{t_type}\t\t{n_trips}\t\t\t{max_f:.2f}\t\t{min_f:.2f}\t\t{avg_fare:.2f}")
     
