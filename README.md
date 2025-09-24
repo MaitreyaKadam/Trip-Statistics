@@ -1,4 +1,4 @@
-# Trip-Statistics Engine using Hadoop Streaming 🚖
+# Trip-Statistics Engine using AWS EMR 🚖
 
 
 
@@ -36,6 +36,10 @@
 ### \- Hadoop Streaming
 
 ### \- Bash scripting
+
+### \- AWS EMR
+
+
 
 
 
